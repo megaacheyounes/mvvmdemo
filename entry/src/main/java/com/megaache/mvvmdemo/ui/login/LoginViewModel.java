@@ -8,7 +8,7 @@ import io.reactivex.Observable;
 import io.reactivex.schedulers.Schedulers;
 import ohos.aafwk.abilityjet.activedata.ActiveData;
 
-public class LoginViewModel extends BaseViewModel<LoginViewState, LoginRepo> {
+public class LoginViewModel extends BaseViewModel<LoginViewState> {
 
     private static final int MIN_PASSWORD_LENGTH = 6;
 
@@ -17,7 +17,7 @@ public class LoginViewModel extends BaseViewModel<LoginViewState, LoginRepo> {
     public ActiveData<Boolean> loginState = new ActiveData<>();
 
     public LoginViewModel() {
-        super(new LoginRepo());
+        super();
     }
 
     public void login(String email, String password) {
