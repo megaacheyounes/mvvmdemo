@@ -93,4 +93,10 @@ public class LoginAbility extends Ability {
                 .setText(message)
                 .show();
     }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        loginViewModel.unbind();
+    }
 }
