@@ -8,4 +8,4 @@ The demo has one page which is login page, it's layout is shown below:
 
 The project structure is shown below:
 
-![alt text](https://github.com/megaacheyounes/mvvmdemo/blob/master/images/file_structure.png "file structure")
+![alt text](https://github.com/megaacheyounes/mvvmdemo/blob/master/images/project_file_structure.png "file structure")
