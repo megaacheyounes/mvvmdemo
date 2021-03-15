@@ -1,10 +1,9 @@
 package com.megaache.mvvmdemo.network.response;
 
-import com.megaache.mvvmdemo.base.BaseRepo;
 import com.megaache.mvvmdemo.model.User;
 import com.squareup.moshi.Json;
 
-public class LoginResponse extends BaseRepo {
+public class LoginResponse extends BaseResponse {
     @Json(name = "user")
     private User user;
     @Json(name = "accessToken")
